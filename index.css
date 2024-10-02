@@ -1,0 +1,87 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+article{
+    margin: auto;
+    background-color: hsl(0, 0%, 12%);
+    width: 15rem;
+    height: 12rem;
+    margin-top: 100px;
+    border-radius: 5px;
+    height: 360px;
+    
+}
+img{
+    border-radius: 80px;
+    width: 70px;
+    margin-left: 5.5rem;
+    margin-top: 1rem;
+    
+}
+h3{
+    text-align: center;
+    color: white;
+    margin-top: 8px;
+}
+#location{
+    text-align: center;
+    color: hsl(75, 94%, 57%);
+    margin-top: -15px;
+    font-size: 11px;
+}
+#quote{
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
+ul li{
+    list-style: none;
+    color: white;
+}
+#github, #frontend, #twitter, #linkedIn, #instagram{
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 20%);
+    margin-bottom: 8px;
+    margin-left: -10px;
+    margin-right: 20px;
+    text-align: center;
+    padding: 5px;
+    font-size: 11px;
+}
+#github:hover,#frontend:hover, #twitter:hover, #linkedIn:hover, #instagram:hover{
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer ;
+    color: black;
+}
+
+#instagram{
+    margin-bottom: 10px;
+}
+
+@media (min-height :1000px) {
+    article{
+        width: 27rem;
+        height: 35rem;
+    }
+    img{
+        width: 90px;
+        margin-left: 11rem;
+        margin-top: 2rem;
+        
+    }
+    #quote{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    #github, #frontend, #twitter, #linkedIn, #instagram{
+        padding: 8px;
+        /* font-size: 24px; */
+    }
+    #location{
+        font-size: 21px;
+    }
+    h3{
+       font-size: 2em;
+    }
+}
